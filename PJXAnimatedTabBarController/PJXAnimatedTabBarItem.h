@@ -13,8 +13,8 @@
 @interface PJXAnimatedTabBarItem : UITabBarItem
 
 // if you use storyboard or nib, you can use this
-//@property (nonatomic, weak) IBOutlet PJXItemAnimation *animation;
-@property (nonatomic, strong) PJXItemAnimation *animation;
+@property (nonatomic, weak) IBOutlet PJXItemAnimation *animation;
+//@property (nonatomic, strong) PJXItemAnimation *animation;
 @property (nonatomic, strong) IBInspectable UIColor *textColor;
 @property (nonatomic, strong) PJXIconView *iconView;
 
